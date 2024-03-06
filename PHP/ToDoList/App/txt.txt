@@ -1,0 +1,2 @@
+tarefa     descrição      data inicio  hora    data conclusão       status
+compras    o que comprar  05/02/2024   15:30   05/02/2024           concluido
