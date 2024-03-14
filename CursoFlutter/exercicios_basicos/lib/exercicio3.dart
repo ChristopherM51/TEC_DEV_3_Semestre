@@ -13,22 +13,96 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text('ListView com Card'),
         ),
-        body: Row(
-          mainAxisAlignment: MainAxisAlignment.center,
+        body: ListView(
           children: [
-            Container(
-              width: 300, // largura do card
-              child: Card(
-                margin: EdgeInsets.all(10),
-                child: ListTile(
-                  leading: Icon(Icons.person),
-                  title: Text('Título do Card'),
-                  subtitle: Text('Informações fictícias'),
-                  trailing: Icon(Icons.arrow_forward),
-                  onTap: () {
-                    // Ação ao clicar no card
-                  },
-                ),
+            Card(
+              child: ListTile(
+                title: Text('Item 1'),
+              ),
+            ),
+            Card(
+              child: ListTile(
+                title: Text('Item 2'),
+              ),
+            ),
+            Card(
+              child: ListTile(
+                title: Text('Item 3'),
+              ),
+            ),
+            Card(
+              child: ListTile(
+                title: Text('Item 1'),
+              ),
+            ),
+            Card(
+              child: ListTile(
+                title: Text('Item 2'),
+              ),
+            ),
+            Card(
+              child: ListTile(
+                title: Text('Item 3'),
+              ),
+            ),
+            Card(
+              child: ListTile(
+                title: Text('Item 1'),
+              ),
+            ),
+            Card(
+              child: ListTile(
+                title: Text('Item 2'),
+              ),
+            ),
+            Card(
+              child: ListTile(
+                title: Text('Item 3'),
+              ),
+            ),
+            Card(
+              child: ListTile(
+                title: Text('Item 1'),
+              ),
+            ),
+            Card(
+              child: ListTile(
+                title: Text('Item 2'),
+              ),
+            ),
+            Card(
+              child: ListTile(
+                title: Text('Item 3'),
+              ),
+            ),
+            Card(
+              child: ListTile(
+                title: Text('Item 1'),
+              ),
+            ),
+            Card(
+              child: ListTile(
+                title: Text('Item 2'),
+              ),
+            ),
+            Card(
+              child: ListTile(
+                title: Text('Item 3'),
+              ),
+            ),
+            Card(
+              child: ListTile(
+                title: Text('Item 1'),
+              ),
+            ),
+            Card(
+              child: ListTile(
+                title: Text('Item 2'),
+              ),
+            ),
+            Card(
+              child: ListTile(
+                title: Text('Item 3'),
               ),
             ),
           ],
