@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shared_preferences/shared_preferences.dart'
+import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {
   runApp(MyApp());
@@ -20,6 +20,7 @@ class TaskListScreen extends StatefulWidget {
   @override
   _TaskListScreenState createState() => _TaskListScreenState();
 }
+
 class _TaskListScreenState extends State<TaskListScreen> {
   List<String> tasks = []; // Lista de tarefas
   final TextEditingController _controller =
@@ -31,7 +32,6 @@ class _TaskListScreenState extends State<TaskListScreen> {
     loadTasks(); // Carrega as tarefas ao iniciar a tela
   }
 
-
   Future<void> loadTasks() async {
     SharedPreferences prefs = await SharedPreferences
         .getInstance(); // Obtém as preferências compartilhadas
@@ -41,14 +41,12 @@ class _TaskListScreenState extends State<TaskListScreen> {
     });
   }
 
-
   Future<void> saveTasks() async {
     SharedPreferences prefs = await SharedPreferences
         .getInstance(); // Obtém as preferências compartilhadas
     await prefs.setStringList('tasks',
         tasks); // Salva a lista de tarefas nas preferências compartilhadas
   }
-
 
   @override
   Widget build(BuildContext context) {
@@ -106,4 +104,3 @@ class _TaskListScreenState extends State<TaskListScreen> {
     );
   }
 }
-
