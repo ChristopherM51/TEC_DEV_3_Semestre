@@ -1,0 +1,54 @@
+{
+    "produtos": [
+        {
+            "id": "1",
+            "nome": "detergente",
+            "categoria": ["produtos de limpeza","cuidados com a casa"],
+            "descricao": "O melhor detergente que o seu dinheiro pode comprar",
+            "preco": 15.00,
+            "avaliacao": [
+                {
+                    "comentario": "Ótimo produto, realmente eficaz na limpeza.",
+                    "classificacao": 5
+                },
+                {
+                    "comentario": "Gosto bastante deste detergente, tem um cheiro agradável.",
+                    "classificacao": 4
+                },
+                {
+                    "comentario": "Cumpre o que promete, estou satisfeito com a compra.",
+                    "classificacao": 5
+                },
+                {
+                    "comentario": "Não é o melhor detergente que já usei, mas funciona bem.",
+                    "classificacao": 3
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "nome": "LG C3",
+            "categoria": ["televisores","eletroeletronicos"],
+            "descricao": "A melhor TV que o meu dinheiro não pode comprar",
+            "preco": 5000.00,
+            "avaliacao": [
+                {
+                    "comentario": "Excelente qualidade de imagem, estou impressionado.",
+                    "classificacao": 5
+                },
+                {
+                    "comentario": "Fácil de configurar e usar, estou muito feliz com a compra.",
+                    "classificacao": 5
+                },
+                {
+                    "comentario": "Boa TV, mas esperava mais recursos pelo preço.",
+                    "classificacao": 4
+                },
+                {
+                    "comentario": "Entrega rápida, mas a TV veio com um pequeno arranhão.",
+                    "classificacao": 3
+                }
+            ]
+        }
+    ]
+}
