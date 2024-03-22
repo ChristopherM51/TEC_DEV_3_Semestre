@@ -1,28 +1,23 @@
+</html>
 <!DOCTYPE html>
-<html lang="pt-BR">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Escola XYZ</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" th:href="@{style.css}">
+    <title>Escola XYZ</title>    
 </head>
-
 <body>
-    <header>
-        <div class="container">
-            <h1>Escola XYZ</h1>
-            <nav>
-                <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Alunos</a></li>
-                    <li><a href="#">Professores</a></li>
-                    <li><a href="#">Administradores</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <!-- Restante do conteúdo do site -->
-</body>
 
+<header>
+    <h1><img th:src="@{img/LogoManchesterUnitedF.C}" width="100px"></h1>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="alunos.html">Alunos</a>
+        <a href="professores.html">Professores</a>
+        <a href="/login-adm">Administradores</a>
+    </nav>
+</header>
+
+</body>
 </html>
