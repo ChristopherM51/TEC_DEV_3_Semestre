@@ -10,12 +10,16 @@
 <body>
 
 <header>
-    <h1><img th:src="@{img/LogoManchesterUnitedF.C}" width="100px"></h1>
+    <h1><img th:src="@{img/winterholdLogo.png}" width="100px"></h1>
     <nav>
-        <a href="index.html">Início</a>
-        <a href="alunos.html">Alunos</a>
-        <a href="professores.html">Professores</a>
-        <a href="/login-adm">Administradores</a>
+        <a href="/home">Home</a>
+        <a href="#">Sobre</a>
+        <a href="#">Contato</a>
+        <div class="acesso">
+            <a href="#"><i class="fas fa-user-graduate"></i>Alunos</a>
+            <a href="#"><i class="fas fa-chalkboard-teacher"></i>Professores</a>
+            <a href="/login-adm"><i class="fas fa-user-tie"></i>Administradores</a>
+        </div>
     </nav>
 </header>
 
