@@ -25,6 +25,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  
   // Atributos
   late SharedPreferences _prefs;
   bool _darkMode = false;
